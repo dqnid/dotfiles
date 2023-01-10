@@ -33,7 +33,7 @@
 	width = (0,300)
 	height = 200
 	origin = top-center
-	offset = 0x28
+	offset = 0x0
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -68,7 +68,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#3e484f"
+    frame_color = "#212529"
 
     # Define a color for the separator.
     # possible values are:

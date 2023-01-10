@@ -28,10 +28,11 @@ font pango:Terminus 10
 ## Tiempo hasta pantalla apagada + tiempo hasta suspensión
 ## Lock antes de suspensión con i3lock-fancy
 ## Ajustar Touchpad
-exec_always --no-startup-id bash /home/danih/.config/polybar/hack/launch.sh
+exec_always --no-startup-id bash /home/danih/.config/polybar/floating/launch.sh
 exec_always --no-startup-id xset 420 180
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 exec_always --no-startup-id bash /home/danih/Scripts/ajustaTouchpad.sh
+exec_always --no-startup-id picom --config /home/danih/.config/picom.conf
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier Ctrl
