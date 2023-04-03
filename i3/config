@@ -12,7 +12,7 @@ smart_borders on
 hide_edge_borders both
 default_border pixel 4
 
-#border_radius 2
+border_radius 2
 
 for_window [title="Pomodoro Timer"] floating enable
 for_window [title="Calendar02042023"] floating enable
@@ -24,11 +24,11 @@ set $terminal st
 font pango:Terminus 10
 
 # Arranque
-exec_always --no-startup-id bash /home/danih/.config/polybar/blocks/launch.sh
+exec_always --no-startup-id bash /home/danih/.config/polybar/floating/launch.sh
 exec_always --no-startup-id xset 420 180
-exec_always --no-startup-id light-locker
-exec_always --no-startup-id xss-lock --transfer-sleep-lock -- light-locker-command -l
-exec_always --no-startup-id killall glava; glava --desktop
+exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
+exec_always --no-startup-id bash /home/danih/Scripts/System/ajustaTouchpad.sh
+exec_always --no-startup-id picom --config /home/danih/.config/picom.conf
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier Ctrl
