@@ -1,0 +1,107 @@
+#
+# wm independent hotkeys
+#
+
+#Audio
+XF86AudioPlay
+	mpc toggle
+XF86AudioNext
+	mpc next
+XF86AudioPrev
+	mpc prev
+XF86AudioRaiseVolume
+	pulseaudio-ctl up 5
+XF86AudioLowerVolume
+	pulseaudio-ctl down 5
+XF86AudioMute
+	pulseaudio-ctl mute
+XF86AudioMicMute
+	pulseaudio-ctl mute-input
+
+#Brillo
+XF86MonBrightnessUp
+	light -A 5
+XF86MonBrightnessDown
+	light -U 5
+XF86TouchpadToggle
+	bash ~/Scripts/alternaTouchpad.sh
+alt + x
+	bash ~/Scripts/alternaTouchpad.sh
+
+#XF86 funcionalidades
+#super + Home
+#	i3-nagbar -t warning -m '¿Seguro que quieres cerrar tu sesión de i3?' -B 'Si, cerrar i3' 'i3-msg exit' -B 'No' 'killall i3-nagbar'
+
+#### F's ####
+#Scripts
+super + F1
+	bash ~/Scripts/System/ShowHelp.sh 0
+super + shift + F1
+	bash ~/Scripts/System/ShowHelp.sh 1
+super + F12
+	st -e bash ~/Scripts/System/sincV8.sh
+super + F2
+	bash ~/Scripts/Applets/mountRofiUSB.sh
+super + shift + F2
+	bash ~/Scripts/Applets/umountRofiUSB.sh
+super + F4
+	~/Scripts/Applets/monitor.sh	
+super + F8
+	bluetoothctl power on
+super + shift + F8
+	blueman-manager
+
+# terminal emulator
+super + Return
+	st
+
+# Focus mode
+super + shift + f
+	bash ~/Scripts/System/focusMode.sh
+
+# program launcher
+super + @space
+	rofi -no-config -no-lazy-grab -show run -theme ~/Scripts/rofi/dmenu.rasi -modi 
+alt + @space
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/Scripts/rofi/launcher.rasi
+
+#Alt+Tab clásico
+alt + Tab
+	rofi -no-config -no-lazy-grab -show window -theme ~/Scripts/rofi/tab.rasi
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+ctrl + shift + @space
+	bash ~/Scripts/System/ajustaBrilloTeclado.sh
+
+#Aplicaciones del sistema
+super + q
+	st -e bpytop
+super + shift + q
+	st -e htop
+super + shift + @space
+	st -e fzf
+super + o
+	i3-msg open
+
+#Programas
+super + b
+	librewolf
+super + shift + b
+	firefox --private-window
+super + c
+	/usr/lib/jvm/java-19-openjdk/bin/java -jar ~/Paquetes/Calendar/calendario.jar
+super + shift + c
+	st -e bc -q
+super + e
+	nemo
+super + r
+	st -e ranger
+Print
+	flameshot gui
+super + m
+	st -e ncmpcpp
+super + shift + m
+	ymuse

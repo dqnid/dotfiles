@@ -1,0 +1,17 @@
+/*
+* Original Author  : Aditya Shakya
+* Mail    : adi1090x@gmail.com
+* Modified by : Daniel Heras
+* Mail    : dani.heras@hotmail.com
+*/
+
+* {
+  al:   #00000000;
+  bg:   #090909f1;
+  bga:  #000000FF;
+  fg:   #f5f5f5FF;
+  ac:   #e9ecefCC;
+  se:   #e9ecef40;
+  acr:   #e9ecefCC;
+  ser:   #e9ecef40;
+}
