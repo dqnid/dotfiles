@@ -29,6 +29,11 @@ export TERMCMD="st"
 export TERM="st"
 export TERMINAL="st"
 
+# Colores
+export PRIMARY="ffffff"
+export FOREGROUND="ffffff"
+export FOREGROUNDALT="ffffff"
+
 #Aliases de acceso rápido
 alias home="cd /home/danih/"
 alias usb="cd /run/media/danih"
@@ -44,6 +49,7 @@ alias latexToPDF="bash ~/Scripts/compilaLatexPDF.sh"
 alias latexGen="~/Scripts/generaLaTeX.sh"
 alias ck="bash ~/Scripts/compilaKotlin.sh"
 alias xk="bash ~/Scripts/compilaKotlin.sh 1"
+alias code="vscodium"
 #alias ls="nnn -de"
 alias sincplay4cyl="rsync -vrP --delete-after ~/Documentos/Proyectos/html/JCYL_Juegos/ root@outzone.club:/var/www/play4cyl"
 alias sincdqnid="rsync -vrP --delete-after ~/Documents/Proyectos/html/dqnid/ root@outzone.club:/var/www/dqnid"

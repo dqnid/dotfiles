@@ -18,6 +18,8 @@ visualizer_output_name = "mpd_visualizer"
 visualizer_in_stereo = "yes"
 visualizer_sync_interval = 30
 visualizer_look = ●●
+visualizer_type = ellipse
+visualizer_color = 1,9,5,13,6,14
 
 ### Appearance ###
 colors_enabled = "yes"
@@ -27,7 +29,7 @@ user_interface = alternative
 volume_color = "white"
 
 # Window #
-song_window_title_format = "Music"
+song_window_title_format = "Music "
 # song_window_title_format = "{%a - }{%t}|{%f}"
 statusbar_visibility = "no"
 header_visibility = "no"
@@ -45,18 +47,18 @@ progressbar_elapsed_color = "252"
 # Alternative UI
 alternative_ui_separator_color = "black"
 alternative_header_first_line_format = $b$5«$/b$5« $b$8{%t}|{%f}$/b $5»$b$5»$/b 
-alternative_header_second_line_format = {$b{$2%a$9}{ - $7%b$9}{ ($2%y$9)}}|{%D}
+alternative_header_second_line_format = {$b{$3%a$9}{ - $7%b$9}{ ($3%y$9)}}|{%D}
 
 # Song list #
 song_status_format= "$7%t"
 song_list_format = "  %t $R%A %l  "
-song_columns_list_format = "(50)[white]{tr} (50)[13]{a}"
+song_columns_list_format = "(50)[white]{tr} (50)[5]{a}"
 
 song_library_format = {{%t$R%l}}|{%f}
 
 # Colors #
 main_window_color = "251"
-current_item_prefix = "$(13)$r"
+current_item_prefix = "$(5)$r"
 current_item_suffix = "$/r$(end)"
 
 #current_item_inactive_column_prefix = red

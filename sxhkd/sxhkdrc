@@ -24,9 +24,9 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
 	light -U 5
 XF86TouchpadToggle
-	bash ~/Scripts/alternaTouchpad.sh
+	bash ~/Scripts/System/alternaTouchpad.sh
 alt + x
-	bash ~/Scripts/alternaTouchpad.sh
+	bash ~/Scripts/System/alternaTouchpad.sh
 
 #XF86 funcionalidades
 #super + Home
