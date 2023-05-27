@@ -1,9 +1,9 @@
-sw_volume: 34
+sw_volume: 60
 audio_device_state:1:Local Pulse Audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 9
-time: 279.741000
+current: 3
+time: 52.050000
 random: 0
 repeat: 1
 single: 0
@@ -12,51 +12,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Arctic Monkeys/Knee Socks.mp3
-1:Au Ra/AuRa - Assassin Official Video.mp3
-2:Black Sabbath/1970 - Paranoid/02 - Paranoid.mp3
-3:Call Me Karizma/Call Me Karizma  Recycled Youth.mp3
-4:Call Me Karizma/Call Me Karizma - Imaginary Illness.mp3
-5:Call Me Karizma/Call Me Karizma - Monster (Under My Bed).mp3
-6:Call Me Karizma/Call Me Karizma - Serotonin.mp3
-7:Deftones/Around The Fur/02 Lhabia.mp3
-8:Disturbed/Disturbed The Sound Of Silence.mp3
-9:Echobrain/Echobrain - Spoonfed.mp3
-10:Ellise/Ellise- 911.mp3
-11:Faith No More/1989 - The Real Thing- Faith no more/04-Surprise! You're Dead!(1).mp3
-12:Foo Fighters/Foo Fighters - Everlong.mp3
-13:Green Day/Green Day - 21 Guns.mp3
-14:Green Day/Green Day Boulevard Of Broken Dreams.mp3
-15:The Hives/The Hives - Hate to Say I Told You So.mp3
-16:I dont Know How But They Found Me/I DONT KNOW HOW BUT THEY FOUND ME - Choke.mp3
-17:Incubus/Incubus -  Drive.mp3
-18:Incubus/Incubus - Anna Molly.mp3
-19:Jelani Aryeh/Stella Brown.mp3
-20:Jessica Ricca/Hey its Delilah Girls Version of Hey There Delilah - Jessica Ricca.mp3
-21:Jet/Jet - Are You Gonna Be My Girl.mp3
-22:Kittie/1999-Kittie - Spit/04 Do You Think I'm A Whore.mp3
-23:Kittie/1999-Kittie - Spit/06 Jonny.mp3
-24:Kittie/1999-Kittie - Spit/07 Trippin'.mp3
-25:Kittie/1999-Kittie - Spit/08 Raven.mp3
-26:Kittie/1999-Kittie - Spit/10 Choke.mp3
-27:Kittie/1999-Kittie - Spit/11 Paperdoll.mp3
-28:Kittie/1999-Kittie - Spit/12 Immortal.mp3
-29:Machine Head/2011 - Unto The Locust/05 - Darkness Within.mp3
-30:My Chemical Romance/[2006] - The Black Parade/11 - Teenagers.mp3
-31:My Chemical Romance/[2006] - The Black Parade/09 - Mama.mp3
-32:My Chemical Romance/[2006] - The Black Parade/05 - Welcome to the Black Parade.mp3
-33:NF/NF The Search.mp3
-34:The Offspring/The Offspring  Youre Gonna Go Far Kid.mp3
-35:The Offspring/The Offspring - The Kids Aren't Alright.mp3
-36:The Offspring/The Offspring - Gone Away.mp3
-37:Slaves/Slaves - One More Day Won’t Hurt.mp3
-38:Sub Urban/Sub Urban  PARAMOUR feat AURORA.mp3
-39:Sub Urban/Sub Urban - Cliché.mp3
-40:Tool/Tool Sober Live Pro Shot Remastered.mp3
-41:Tool/Tool -  Fear Inoculum - 2019/TOOL - Pneuma (Audio) (192  kbps).mp3
-42:Two Feet/Two Feet  - Go Fck Yourself.mp3
-43:Twenty One Pilots/twenty one pilots -  Ride.mp3
-44:Twenty One Pilots/twenty one pilots - Stressed Out.mp3
-45:Volbeat/Volbeat - Still Counting.mp3
-46:Yungblud/YUNGBLUD - Parents.mp3
+0:Bathory/Hammerheart/Bathory - Shores in Flames.mp3
+1:Bathory/Hammerheart/Bathory - Valhalla.mp3
+2:Bathory/Hammerheart/Bathory - Baptise in Fire and Ice.mp3
+3:Bathory/Hammerheart/Bathory - Father to Son.mp3
+4:Bathory/Hammerheart/Bathory - Song to Hall up High.mp3
+5:Bathory/Hammerheart/Bathory - Home of Once Brave.mp3
+6:Bathory/Hammerheart/Bathory - One Rode to ASA Bay.mp3
+7:Bathory/Hammerheart/Bathory - The Winds of Mayhem (Outro).mp3
+8:Bathory/Bathory The lake.mp3
 playlist_end

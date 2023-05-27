@@ -1,7 +1,0 @@
-dunst &
-sxhkd &
-udiskie -A &
-picom &
-mpd &
-batsignal -b -w 40 -f 80 &
-libinput-gestures-setup start &
