@@ -40,7 +40,7 @@ bindsym $mod+t border normal 3
 bindsym $mod+Shift+t border pixel 2
 
 # kill focused window
-bindsym $mod+w exec ~/Scripts/confirmKilli3.sh kill
+bindsym $mod+w exec ~/Scripts/System/confirmKilli3.sh kill
 bindsym $mod+Shift+w kill
 bindsym --border button2 kill
 
