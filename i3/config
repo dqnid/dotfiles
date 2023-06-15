@@ -1,22 +1,25 @@
 # i3 config file (25/11/22)
 
 #Declaraciones Básicas
-for_window [class="^.*"] border pixel 1
-gaps inner 0
-gaps top 0
-gaps bottom 0
-bindsym $mod+v gaps inner all set 0
-bindsym $mod+Shift+v gaps inner all set 20
+for_window [class="^.*"] border pixel 6
+gaps inner 20
+gaps outer 0
 
-smart_borders on
+#smart_borders on
 hide_edge_borders both
-default_border pixel 1
+default_border pixel 6
+default_floating_border normal
+smart_gaps inverse_outer
 
-#border_radius 2
+popup_during_fullscreen smart
+focus_on_window_activation smart
+
+border_radius 1
 
 for_window [title="Pomodoro Timer"] floating enable
 for_window [title="Calendar02042023"] floating enable
 for_window [title="Music "] floating enable
+for_window [instance=rofi] sticky enable
 #for_window [class="matplotlib"] floating enable
 #for_window [class="eww"] floating enable
 
@@ -26,7 +29,7 @@ set $terminal st
 font pango:Terminus 10
 
 # Arranque
-exec_always --no-startup-id bash /home/danih/.config/polybar/dock/launch.sh
+exec_always --no-startup-id bash /home/danih/.config/polybar/floating/launch.sh
 exec_always --no-startup-id xset 420 180
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 exec_always --no-startup-id bash /home/danih/Scripts/System/ajustaTouchpad.sh
@@ -85,6 +88,8 @@ bindsym $mod+a layout toggle split
 # toggle tiling / floating
 bindsym $mod+g floating toggle
 
+bindsym $mod+v sticky toggle
+
 # focus the parent container
 bindsym $mod+p focus parent
 
@@ -105,6 +110,7 @@ set $ws9 "9"
 set $ws10 "10"
 set $ws11 "11"
 set $ws12 "12"
+set $ws13 "13"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -119,6 +125,7 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 bindsym $mod+z workspace number $ws11
 bindsym $mod+x workspace number $ws12
+bindsym $mod+m workspace number $ws13
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -133,6 +140,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+z move container to workspace number $ws11
 bindsym $mod+Shift+x move container to workspace number $ws12
+bindsym $mod+Shift+m move container to workspace number $ws13
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -142,23 +150,16 @@ bindsym $mod+Shift+r restart
 #bindsym $mod+Shift+F12 exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 #Colores
-set $bg-color 	         #282A36
-set $focus		 		 #3d5a80
-set $fFocus				 #212529
-set $ibc   				 #000000
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
-
-set $black 				 #000000
+set $black 				 #121212
+set $grey 				 #252525
 set $fg-alt 			 #888888
 set $red 				 #c1121f
-set $dark-blue 			 #202020
+set $dark-blue 			 #dcb476
 
 						#borde  #fondo	#texto  #indicador 	#hijo
-client.focused          $black 	$black	#ffffff $dark-blue 	$dark-blue
-client.focused_inactive $black	$black  $fg-alt #484e50   	$dark-blue
-client.unfocused        $black 	$black	$fg-alt #292d2e   	$dark-blue
+client.focused          $grey	$grey	#ffffff $dark-blue 	$grey
+client.focused_inactive $grey	$grey  $fg-alt #484e50   	$black
+client.unfocused        $black	$black	$fg-alt #292d2e   	$black
 client.urgent           #333333 #900000 $red 	#900000   	#900000
 client.placeholder      $black  $black  $red 	$red   	  	#0c0c0c
 
@@ -169,10 +170,10 @@ client.background       #ffffff
 exec_always feh --bg-fill ~/.config/Wallpaper/wp
 
 #Redimensionar ventanas
-bindsym $mod+Ctrl+h resize shrink width 5px or 5 ppt
-bindsym $mod+Ctrl+j resize shrink height 5px or 5 ppt
-bindsym $mod+Ctrl+l resize grow width 5px or 5 ppt
-bindsym $mod+Ctrl+k resize grow height 5px or 5 ppt
+bindsym $mod+Ctrl+h resize shrink width 35px or 5 ppt
+bindsym $mod+Ctrl+j resize shrink height 35px or 5 ppt
+bindsym $mod+Ctrl+l resize grow width 35px or 5 ppt
+bindsym $mod+Ctrl+k resize grow height 35px or 5 ppt
 
 #Redimensionar gaps
 bindsym $mod+y gaps inner current minus 10
@@ -191,3 +192,4 @@ workspace 9 output HDMI-A-0 DisplayPort-0
 workspace 10 output HDMI-A-0 DisplayPort-0
 workspace 11 output eDP
 workspace 12 output HDMI-A-0 DisplayPort-0
+workspace 13 output eDP

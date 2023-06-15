@@ -88,11 +88,11 @@ super + o
 
 #Programas
 super + b
-	librewolf
+	brave
 super + shift + b
-	firefox --private-window
+	librewolf --private-window
 super + c
-	/usr/lib/jvm/java-19-openjdk/bin/java -jar ~/Paquetes/Calendar/calendario.jar
+	/usr/lib/jvm/java-19-openjdk/bin/java -jar ~/Packages/Calendar/calendario.jar
 super + shift + c
 	st -e bc -q
 super + e
@@ -101,7 +101,7 @@ super + r
 	st -e ranger
 Print
 	flameshot gui
-super + m
+super + n
 	st -e ncmpcpp
-super + shift + m
+super + shift + n
 	ymuse

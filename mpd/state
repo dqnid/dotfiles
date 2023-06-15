@@ -1,9 +1,9 @@
-sw_volume: 60
+sw_volume: 52
 audio_device_state:1:Local Pulse Audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 3
-time: 52.050000
+current: 6
+time: 146.173000
 random: 0
 repeat: 1
 single: 0
@@ -12,13 +12,63 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Bathory/Hammerheart/Bathory - Shores in Flames.mp3
-1:Bathory/Hammerheart/Bathory - Valhalla.mp3
-2:Bathory/Hammerheart/Bathory - Baptise in Fire and Ice.mp3
-3:Bathory/Hammerheart/Bathory - Father to Son.mp3
-4:Bathory/Hammerheart/Bathory - Song to Hall up High.mp3
-5:Bathory/Hammerheart/Bathory - Home of Once Brave.mp3
-6:Bathory/Hammerheart/Bathory - One Rode to ASA Bay.mp3
-7:Bathory/Hammerheart/Bathory - The Winds of Mayhem (Outro).mp3
-8:Bathory/Bathory The lake.mp3
+0:Aesop Rock/Aesop Rock - Long Legged Larry (Official Video) (320 kbps).mp3
+1:Coolio/Coolio Gangstas Paradise feat LV Official Music Video.mp3
+2:DMX/DMX Slippin.mp3
+3:DMX/DMX Where The Hood.mp3
+4:DMX/DMX X Gon Give It To Ya.mp3
+5:Eminem/8 Mile.mp3
+6:Eminem/Eminem Lose Yourself.mp3
+7:Eminem/Rap God.mp3
+8:Eminem/Sing For The Moment.mp3
+9:Eminem/Till I Collapse.mp3
+10:Eminem/Without Me.mp3
+11:Falsalarma/FALSALARMA - BARNA (CANAL BOA) (320 kbps).mp3
+12:Falsalarma/Falsalarma - El santo (320 kbps).mp3
+13:Falsalarma/Vete a casa (con Tote king y Kase o) (320 kbps).mp3
+14:Falsalarma/tote king falsa alarma espiritu.mp3
+15:Fort Minor/Remember The Name - Fort Minor.mp3
+16:Heroic/HEROIC Perfect World.mp3
+17:Lil Dicky/Lil Dicky Professional Rapper Feat Snoop Dogg.mp3
+18:NF/NF CLOUDS.mp3
+19:NF/NF Let You Down.mp3
+20:NF/NF Real.mp3
+21:NF/NF The Search.mp3
+22:NF/NF WHY.mp3
+23:NF/NF When I Grow Up.mp3
+24:Night Lovell/Night Lovell Still Cold Prod Dylan Brady M4 Performance.mp3
+25:Notorious Big/Hypnotize 2007 Remaster.mp3
+26:Notorious Big/Notorious BIG Cash Flow.mp3
+27:Notorious Big/The Notorious BIG Juicy Official Video Remastered in 4K.mp3
+28:Notorious Big/The Notorious BIG Miss U Official Audio.mp3
+29:Roy Jones/Cant Be Touched feat Mr Magic Trouble.mp3
+30:SFDK/El Ingeniero (320 kbps).mp3
+31:SFDK/El liricista en el tejado.mp3
+32:SFDK/SFDK PRUEBALO CANAL BOA.mp3
+33:SFDK/Yo contra todos.mp3
+34:SFDK/Siempre Fuertes - 1999/02 SFDK 1 cada 20 Siempre fuertes 1999.mp3
+35:SFDK/Siempre Fuertes - 1999/03 SFDK A mi no me lo cuentes con KaseO Siempre Fuertes 1999.mp3
+36:SFDK/Siempre Fuertes - 1999/04 SFDK Nacido en el asfalto Siempre Fuertes 1999.mp3
+37:SFDK/Siempre Fuertes - 1999/05 SFDK Óscar domina Siempre Fuertes 1999.mp3
+38:SFDK/Siempre Fuertes - 1999/06 SFDK As te talo as te podo Siempre Fuertes 1999.mp3
+39:SFDK/Siempre Fuertes - 1999/08 SFDK El Ingeniero Siempre Fuertes 1999.mp3
+40:SFDK/Siempre Fuertes - 1999/09 SFDK - Una de piratas (con La Mala) _Siempre Fuertes 1999_.mp3
+41:SFDK/Siempre Fuertes - 1999/10 SFDK - Pánico (con La Gota que Colma) _Siempre Fuertes 1999_.mp3
+42:SFDK/Siempre Fuertes - 1999/11 SFDK - Demasiados micrófonos y corazones vacíos _Siempre Fuertes 1999_.mp3
+43:SFDK/Siempre Fuertes - 1999/12 SFDK - Carisma (con Frank-T) _Siempre Fuertes 1999_.mp3
+44:SFDK/Siempre Fuertes - 1999/13 SFDK - Desde pinomontano a los vestuarios (con Ose) _Siempre Fuertes 1999_.mp3
+45:SFDK/Siempre Fuertes - 1999/14 SFDK - Pisotones de un siempre fuerte _Siempre Fuertes 1999_.mp3
+46:Sho Hai/Sho Hai - Es mi Etica (Prod. El Puto Coke) [Remix por level] (320 kbps).mp3
+47:Sho Hai/Sho Hai - Doble Vida (320 kbps).mp3
+48:Slick Rick/Slick Rick Behind Bars.mp3
+49:Tote King/Tote King - matematicas.mp3
+50:Tote King/Tote King Mentiras.mp3
+51:Tote King/Tote King Ni de ellos ni de ellas.mp3
+52:Tote King/Toteking - Redes Sociales (Videoclip) (320 kbps).mp3
+53:Violadores del Verso/Pura Droga Sin Cortar (320 kbps).mp3
+54:Violadores del Verso/VIOLADORES DEL VERSO - A LAS COSAS POR SU NOMBRE (320 kbps).mp3
+55:Violadores del Verso/VIOLADORES DEL VERSO - VIVIR PARA CONTARLO (320 kbps).mp3
+56:ZPU/ZPU - Camino Sólo (Music Video) (128 kbps).mp3
+57:ZPU/ZPU - HE TENIDO UN SUEÑO HD (CANAL BOA) (128 kbps).mp3
+58:Eminem/Go To Sleep.mp3
 playlist_end

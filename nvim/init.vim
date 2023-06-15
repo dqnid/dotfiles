@@ -25,10 +25,10 @@ Plug 'machakann/vim-sandwich'
 Plug 'ryanoasis/vim-devicons'
 
 " Themes
-Plug 'EdenEast/nightfox.nvim'
-Plug 'bluz71/vim-moonfly-colors', { 'branch': 'cterm-compat' }
-Plug 'projekt0n/github-nvim-theme'
-Plug 'tomasiser/vim-code-dark'
+" Plug 'EdenEast/nightfox.nvim'
+" Plug 'bluz71/vim-moonfly-colors', { 'branch': 'cterm-compat' }
+" Plug 'projekt0n/github-nvim-theme'
+" Plug 'tomasiser/vim-code-dark'
 
 " Folder tree
 Plug 'nvim-tree/nvim-web-devicons'
@@ -97,7 +97,10 @@ let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 
 let g:airline_theme='minimalist'
-colorscheme moonfly
+let g:hybrid_custom_term_colors = 1
+" colorscheme moonfly
+set background=dark
+colorscheme hybrid
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 1
 
