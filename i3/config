@@ -157,9 +157,9 @@ set $red 				 #c1121f
 set $dark-blue 			 #dcb476
 
 						#borde  #fondo	#texto  #indicador 	#hijo
-client.focused          $grey	$grey	#ffffff $dark-blue 	$grey
-client.focused_inactive $grey	$grey  $fg-alt #484e50   	$black
-client.unfocused        $black	$black	$fg-alt #292d2e   	$black
+client.focused          $grey	$grey	#ffffff $black 		$grey
+client.focused_inactive $grey	$grey   $fg-alt $black   	$black
+client.unfocused        $black	$black	$fg-alt $grey   	$black
 client.urgent           #333333 #900000 $red 	#900000   	#900000
 client.placeholder      $black  $black  $red 	$red   	  	#0c0c0c
 
