@@ -30,7 +30,6 @@ alias latexToPDF="bash ~/Scripts/Compilers/compilaLatexPDF.sh"
 alias latexGen="~/Scripts/Tools/generaLaTeX.sh"
 alias ck="bash ~/Scripts/compilaKotlin.sh"
 alias xk="bash ~/Scripts/compilaKotlin.sh 1"
-alias code="vscodium"
 #alias ls="nnn -de"
 alias cls=clear
 alias gs="git status --short"
