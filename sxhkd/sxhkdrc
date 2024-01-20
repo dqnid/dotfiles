@@ -46,8 +46,6 @@ super + shift + F2
 	bash ~/Scripts/Applets/umountRofiUSB.sh
 super + F4
 	~/Scripts/Applets/monitor.sh	
-super + F8
-	bluetoothctl power on
 super + shift + F8
 	blueman-manager
 
@@ -60,9 +58,9 @@ super + shift + f
 	bash ~/Scripts/System/focusMode.sh
 
 # program launcher
-super + @space
-	rofi -no-config -no-lazy-grab -show run -theme ~/Scripts/rofi/dmenu.rasi -modi 
 alt + @space
+	rofi -no-config -no-lazy-grab -show run -theme ~/Scripts/rofi/dmenu.rasi -modi 
+super + @space
 	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/Scripts/rofi/launcher.rasi
 
 #Alt+Tab clásico
@@ -77,9 +75,9 @@ ctrl + shift + @space
 	bash ~/Scripts/System/ajustaBrilloTeclado.sh
 
 #Aplicaciones del sistema
-super + q
+super + w
 	st -e bpytop
-super + shift + q
+super + shift + w
 	st -e htop
 super + shift + @space
 	st -e fzf
@@ -101,7 +99,7 @@ super + r
 	st -e ranger
 Print
 	flameshot gui
-super + n
+super + m
 	st -e ncmpcpp
 super + shift + n
 	ymuse

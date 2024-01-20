@@ -32,6 +32,7 @@ alias ck="bash ~/Scripts/compilaKotlin.sh"
 alias xk="bash ~/Scripts/compilaKotlin.sh 1"
 #alias ls="nnn -de"
 alias cls=clear
+alias notes="cd ~/Documents/Anotaciones/Ficheros\ Fuente/Cripta/ && nvim ."
 alias gs="git status --short"
 
 # Customize to your needs...

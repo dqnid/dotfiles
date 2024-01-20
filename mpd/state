@@ -1,9 +1,9 @@
-sw_volume: 64
+sw_volume: 10
 audio_device_state:1:Local Pulse Audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 0
-time: 2801.249000
+current: 16
+time: 30.157000
 random: 1
 repeat: 0
 single: 0
@@ -12,12 +12,21 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Lofi/3 A.M Study Session 📚 - [lofi hip hop chill beats].mp4
-1:Lofi/3 30 AM Coding Session - Lofi Hip Hop Mix [Study & Coding Beats].mp4
-2:Lofi/Dark Monastery gregorian chants Gothic litanies Warhammer 40k ambient Grimdark RPG music.mp4
-3:Lofi/Early morning lofi vibes.. lofi beats to study and relax studying lofi productivity lo-fi beats.mp4
-4:Lofi/Just wanna stay here forever ~ lofi hip hop mix.mp4
-5:Lofi/Last breeze of the evening ~ lofi hip hop mix.mp4
-6:Lofi/NOT LOFI METAL BEATS TO STRESS_CRAM TO.mp4
-7:Lofi/Post-Rock for Studying-Focusing.mp4
+0:Rammstein/rammstein-amerika-official-video.mp3
+1:Rammstein/rammstein-du-hast-official-video.mp3
+2:Rammstein/rammstein-du-riechst-so-gut-98-official-video.mp3
+3:Rammstein/rammstein-engel-official-video.mp3
+4:Rammstein/rammstein-feuer-frei-official-video.mp3
+5:Rammstein/rammstein-haifisch-official-video.mp3
+6:Rammstein/rammstein-ich-tu-dir-weh-official-video.mp3
+7:Rammstein/rammstein-ich-will-official-video(1).mp3
+8:Rammstein/rammstein-ich-will-official-video.mp3
+9:Rammstein/rammstein-keine-lust-official-video.mp3
+10:Rammstein/rammstein-links-2-3-4-official-video.mp3
+11:Rammstein/rammstein-mein-herz-brennt-official-video.mp3
+12:Rammstein/rammstein-mein-land-official-video.mp3
+13:Rammstein/rammstein-mein-teil-official-video.mp3
+14:Rammstein/rammstein-ohne-dich-official-video.mp3
+15:Rammstein/rammstein-rosenrot-official-video.mp3
+16:Rammstein/rammstein-sonne-official-video.mp3
 playlist_end

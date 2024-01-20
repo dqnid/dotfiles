@@ -2,6 +2,7 @@ dunst &
 sxhkd &
 udiskie -A &
 picom &
+eww daemon &
 [ ! -s ~/.config/mpd/pid ] && mpd &
-batsignal -b -w 40 -f 80 &
+batsignal -b -w 20 -f 90 &
 libinput-gestures-setup start &

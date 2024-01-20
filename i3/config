@@ -14,12 +14,13 @@ smart_gaps inverse_outer
 popup_during_fullscreen smart
 focus_on_window_activation smart
 
-border_radius 1
+border_radius 0
 
 for_window [title="Pomodoro Timer"] floating enable
 for_window [title="Calendar02042023"] floating enable
 for_window [title="Music "] floating enable
 for_window [instance=rofi] sticky enable
+for_window [instance=eww] border pixel 0
 #for_window [class="matplotlib"] floating enable
 #for_window [class="eww"] floating enable
 
@@ -29,7 +30,7 @@ set $terminal st
 font pango:Terminus 10
 
 # Arranque
-exec_always --no-startup-id bash /home/danih/.config/polybar/floating/launch.sh
+exec_always --no-startup-id bash /home/danih/.config/polybar/launch.sh
 exec_always --no-startup-id xset 420 180
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 exec_always --no-startup-id bash /home/danih/Scripts/System/ajustaTouchpad.sh
@@ -43,8 +44,8 @@ bindsym $mod+t border normal 3
 bindsym $mod+Shift+t border pixel 2
 
 # kill focused window
-bindsym $mod+w exec ~/Scripts/System/confirmKilli3.sh kill
-bindsym $mod+Shift+w kill
+bindsym $mod+q kill
+bindsym $mod+Shift+q exec ~/Scripts/System/confirmKilli3.sh kill
 bindsym --border button2 kill
 
 # change focus
@@ -110,7 +111,6 @@ set $ws9 "9"
 set $ws10 "10"
 set $ws11 "11"
 set $ws12 "12"
-set $ws13 "13"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -125,7 +125,6 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 bindsym $mod+z workspace number $ws11
 bindsym $mod+x workspace number $ws12
-bindsym $mod+m workspace number $ws13
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -140,7 +139,6 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+z move container to workspace number $ws11
 bindsym $mod+Shift+x move container to workspace number $ws12
-bindsym $mod+Shift+m move container to workspace number $ws13
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -192,4 +190,3 @@ workspace 9 output HDMI-A-0 DisplayPort-0
 workspace 10 output HDMI-A-0 DisplayPort-0
 workspace 11 output eDP
 workspace 12 output HDMI-A-0 DisplayPort-0
-workspace 13 output eDP
