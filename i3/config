@@ -1,15 +1,13 @@
-# i3 config file (25/11/22)
+# i3 config file (29/08/24)
 
-#Declaraciones Básicas
-for_window [class="^.*"] border pixel 6
-gaps inner 20
-gaps outer 0
-
-#smart_borders on
 hide_edge_borders both
-default_border pixel 6
+default_border pixel 0
 default_floating_border normal
 smart_gaps inverse_outer
+
+for_window [class="^.*"] border pixel 0
+gaps inner 15
+gaps outer 0
 
 popup_during_fullscreen smart
 focus_on_window_activation smart
@@ -35,6 +33,8 @@ exec_always --no-startup-id xset 420 180
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 exec_always --no-startup-id bash /home/danih/Scripts/System/ajustaTouchpad.sh
 exec_always --no-startup-id picom --config /home/danih/.config/picom.conf
+exec_always xmodmap ~/.Xmodmap
+exec --no-startup-id x-on-resize -c ~/Scripts/Applets/monitor.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier Ctrl
@@ -148,7 +148,7 @@ bindsym $mod+Shift+r restart
 #bindsym $mod+Shift+F12 exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 #Colores
-set $black 				 #121212
+set $black 				 #000000
 set $grey 				 #252525
 set $fg-alt 			 #888888
 set $red 				 #c1121f
@@ -178,7 +178,7 @@ bindsym $mod+y gaps inner current minus 10
 bindsym $mod+Shift+y gaps inner current plus 10
 
 #Asignaciones
-workspace 1 output eDP   
+workspace 1 output eDP
 workspace 2 output eDP
 workspace 3 output eDP
 workspace 4 output eDP

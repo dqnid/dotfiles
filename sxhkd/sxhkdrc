@@ -51,7 +51,7 @@ super + shift + F8
 
 # terminal emulator
 super + Return
-	st
+	kitty
 
 # Focus mode
 super + shift + f
@@ -66,6 +66,8 @@ super + @space
 #Alt+Tab clásico
 alt + Tab
 	rofi -no-config -no-lazy-grab -show window -theme ~/Scripts/rofi/tab.rasi
+super + Tab
+	rofi -no-config -no-lazy-grab -show window -theme ~/Scripts/rofi/tab.rasi
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -76,30 +78,35 @@ ctrl + shift + @space
 
 #Aplicaciones del sistema
 super + w
-	st -e bpytop
+	kitty -e bpytop
 super + shift + w
-	st -e htop
+	kitty -e htop
 super + shift + @space
-	st -e fzf
+	kitty -e fzf
 super + o
 	i3-msg open
 
 #Programas
 super + b
-	brave
+	firefox-developer-edition
 super + shift + b
-	librewolf --private-window
+	firefox-developer-edition --private-window
+
+# FIXME: not working
 super + c
-	/usr/lib/jvm/java-19-openjdk/bin/java -jar ~/Packages/Calendar/calendario.jar
+    xdotool key ctrl+c
+super + v
+    xdotool key ctrl+v
+
 super + shift + c
-	st -e bc -q
+	kitty -e bc -q
 super + e
 	nemo
 super + r
-	st -e ranger
+	kitty -e ranger
 Print
 	flameshot gui
 super + m
-	st -e ncmpcpp
+	kitty -e ncmpcpp
 super + shift + n
 	ymuse

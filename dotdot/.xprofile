@@ -4,5 +4,6 @@ udiskie -A &
 picom &
 eww daemon &
 [ ! -s ~/.config/mpd/pid ] && mpd &
-batsignal -b -w 20 -f 90 &
+batsignal -b -w 20 &
 libinput-gestures-setup start &
+nextcloud &

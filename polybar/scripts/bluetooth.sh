@@ -10,7 +10,8 @@ else
   if [ $(echo info | bluetoothctl | grep 'Device' | wc -c) -eq 0 ]
   then 
     echo ""
+  else
+    echo "%{F#40916c}"
   fi
-  echo "%{F#40916c}"
 fi
 
