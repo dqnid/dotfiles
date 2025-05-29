@@ -1,19 +1,19 @@
-/**
+/*
 
 !.gitignore
 !/.git/
 
-!/betterlockscreen/
-!/bspwm/
-!/dotdot/
-!/mpd/
-!/ncmpcpp/
-!/nnn/
-!/polybar/
-!/ranger/
-!/utils/
-!/sxhkd/
-!/wired/
+!betterlockscreen/
+!bspwm/
+!dotdot/
+!mpd/
+!ncmpcpp/
+!nnn/
+!polybar/
+!ranger/
+!utils/
+!sxhkd/
+!wired/
 !libinput-gestures.conf
 !picom.conf
 !starship.toml

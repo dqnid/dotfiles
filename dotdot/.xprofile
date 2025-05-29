@@ -1,0 +1,34 @@
+# Keys
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# Compositor
+picom --config ~/.config/picom.conf &
+
+# Music server
+[ ! -s ~/.config/mpd/pid ] && mpd &
+
+# Battery monitor
+batsignal -b -w 20 -c 5 -p -P "Charging" -m 120 &
+
+# Touchpad gestures
+libinput-gestures-setup start &
+
+# Screen lock
+xset dpms 0 0 380
+xss-lock -l -- ~/.config/utils/lock &
+
+# Cloud
+nextcloud --background &
+
+# Bluetooth utils
+blueberry-tray &
+
+# Auto-xrandr
+x-on-resize -c ~/.config/utils/auto_xrandr.sh &
+
+# Notifications
+wired &
+
+# Default cursor
+xsetroot -cursor_name left_ptr &
+

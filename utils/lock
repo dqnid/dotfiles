@@ -1,0 +1,6 @@
+#!/bin/sh
+# --off 16 is no necessary right now since the screen is turned off before the lock
+#betterlockscreen --off 16 -l -w  &
+betterlockscreen -l -w  &
+# systemctl suspend
+
